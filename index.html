@@ -1,0 +1,480 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>CNG Near Me — Privacy Policy</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap">
+
+<style>
+  /* Layout: single column, document-style, max-width prose container */
+  :root {
+    --bg: #ffffff;
+    --surface: #f7f9f7;
+    --border: #d4e6d4;
+    --fg: #1a2e1a;
+    --fg-muted: #4a6b4a;
+    --accent: #16a34a;
+    --accent-light: #dcfce7;
+    --accent-dark: #166534;
+    --danger: #dc2626;
+
+    --font-display: 'Merriweather', Georgia, serif;
+    --font-body: 'Inter', system-ui, sans-serif;
+
+    --radius: 8px;
+    --max-w: 720px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f1f0f;
+      --surface: #1a2e1a;
+      --border: #2d4a2d;
+      --fg: #e8f5e8;
+      --fg-muted: #8fb88f;
+      --accent: #4ade80;
+      --accent-light: #14532d;
+      --accent-dark: #86efac;
+      color-scheme: dark;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #0f1f0f;
+    --surface: #1a2e1a;
+    --border: #2d4a2d;
+    --fg: #e8f5e8;
+    --fg-muted: #8fb88f;
+    --accent: #4ade80;
+    --accent-light: #14532d;
+    --accent-dark: #86efac;
+    color-scheme: dark;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0;
+    padding-block: 40px 80px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+
+  .wrapper {
+    max-width: var(--max-w);
+    margin: 0 auto;
+  }
+
+  /* Header */
+  .site-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-block: 0 40px;
+    border-bottom: 2px solid var(--border);
+    margin-bottom: 40px;
+  }
+
+  .app-icon {
+    width: 56px;
+    height: 56px;
+    background: var(--accent);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .app-icon svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  .app-name {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--fg);
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .app-name span {
+    display: block;
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--fg-muted);
+    margin-top: 3px;
+    letter-spacing: 0.02em;
+  }
+
+  /* Page title */
+  h1 {
+    font-family: var(--font-display);
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    font-weight: 700;
+    color: var(--fg);
+    line-height: 1.25;
+    margin: 0 0 8px;
+    text-wrap: balance;
+  }
+
+  .last-updated {
+    font-size: 0.85rem;
+    color: var(--fg-muted);
+    margin: 0 0 40px;
+    letter-spacing: 0.02em;
+  }
+
+  /* Intro box */
+  .intro-box {
+    background: var(--accent-light);
+    border-left: 4px solid var(--accent);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    padding: 16px 20px;
+    margin-bottom: 40px;
+    font-size: 0.95rem;
+    color: var(--fg);
+  }
+
+  .intro-box strong {
+    color: var(--accent-dark);
+  }
+
+  /* Section headings */
+  h2 {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--accent-dark);
+    margin: 40px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+    text-wrap: balance;
+  }
+
+  /* First h2 no top margin */
+  h2:first-of-type {
+    margin-top: 0;
+  }
+
+  p {
+    margin: 0 0 16px;
+    max-width: 65ch;
+    color: var(--fg);
+  }
+
+  ul {
+    margin: 0 0 16px;
+    padding-left: 20px;
+  }
+
+  li {
+    margin-bottom: 8px;
+    max-width: 65ch;
+    color: var(--fg);
+  }
+
+  li strong {
+    color: var(--fg);
+  }
+
+  /* Data table */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+    font-size: 0.9rem;
+    overflow-x: auto;
+    display: block;
+  }
+
+  .data-table th,
+  .data-table td {
+    text-align: left;
+    padding: 10px 14px;
+    border: 1px solid var(--border);
+    vertical-align: top;
+  }
+
+  .data-table th {
+    background: var(--surface);
+    font-weight: 600;
+    color: var(--fg);
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .data-table td {
+    color: var(--fg);
+  }
+
+  .data-table tr:hover td {
+    background: var(--surface);
+  }
+
+  /* Badge */
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 100px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    background: var(--accent-light);
+    color: var(--accent-dark);
+    border: 1px solid var(--border);
+  }
+
+  /* Contact card */
+  .contact-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px;
+    margin-top: 16px;
+  }
+
+  .contact-card .company {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--fg);
+    margin: 0 0 4px;
+  }
+
+  .contact-card .udyam {
+    font-size: 0.78rem;
+    color: var(--fg-muted);
+    letter-spacing: 0.04em;
+    margin-bottom: 16px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .contact-grid {
+    display: grid;
+    gap: 10px;
+  }
+
+  .contact-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 0.9rem;
+  }
+
+  .contact-label {
+    font-weight: 600;
+    color: var(--fg-muted);
+    min-width: 64px;
+    flex-shrink: 0;
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding-top: 2px;
+  }
+
+  .contact-value {
+    color: var(--fg);
+    word-break: break-all;
+  }
+
+  /* Footer */
+  footer {
+    margin-top: 60px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    font-size: 0.82rem;
+    color: var(--fg-muted);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  footer a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 480px) {
+    h2 { font-size: 1.05rem; }
+    .site-header { flex-direction: column; align-items: flex-start; }
+    footer { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+
+<div class="wrapper">
+
+  <header class="site-header">
+    <div class="app-icon">
+      <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Simple CNG pin icon in white -->
+        <circle cx="16" cy="13" r="7" fill="white" opacity="0.9"/>
+        <path d="M16 32 C16 32 9 21 9 14 C9 10.134 12.134 7 16 7 C19.866 7 23 10.134 23 14 C23 21 16 32 16 32Z" fill="white"/>
+        <text x="16" y="16" font-family="Arial, sans-serif" font-size="5.5" font-weight="800" fill="#16a34a" text-anchor="middle" dominant-baseline="middle">CNG</text>
+      </svg>
+    </div>
+    <div>
+      <p class="app-name">CNG Near Me
+        <span>by CNGSetu · SetuSphere</span>
+      </p>
+    </div>
+  </header>
+
+  <h1>Privacy Policy</h1>
+  <p class="last-updated">Last Updated: October 2026</p>
+
+  <div class="intro-box">
+    <strong>Our commitment:</strong> CNG Near Me is a crowdsourced public-good app. We do not collect your name, phone number, or any information that identifies you personally. All contributions are anonymous by design.
+  </div>
+
+  <h2>1. About This App</h2>
+  <p>CNG Near Me ("the App") helps drivers in India find nearby CNG fuel stations and check real-time availability. The App is operated by <strong>SetuSphere</strong>, Deoria, Uttar Pradesh, India (MSME Registration: UDYAM-UP-21-0060784).</p>
+  <p>The App operates on a crowdsourced model — users voluntarily report CNG pump status (available / unavailable, pressure, queue length) to help other drivers. No account creation or login is required.</p>
+
+  <h2>2. Information We Collect</h2>
+
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Data Type</th>
+        <th>What It Is</th>
+        <th>Why We Collect It</th>
+        <th>Stored Personally?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Anonymous Device ID</strong></td>
+        <td>A random UUID generated on your device and stored locally</td>
+        <td>To prevent duplicate status reports from the same device within 2 hours</td>
+        <td><span class="badge">No</span></td>
+      </tr>
+      <tr>
+        <td><strong>GPS Location</strong></td>
+        <td>Your approximate geographic coordinates</td>
+        <td>To center the map on your location and show nearby pumps</td>
+        <td><span class="badge">No</span></td>
+      </tr>
+      <tr>
+        <td><strong>Pump Status Reports</strong></td>
+        <td>CNG availability, pressure level, queue length you report</td>
+        <td>To update the crowdsourced pump status for all users</td>
+        <td><span class="badge">No</span></td>
+      </tr>
+      <tr>
+        <td><strong>Pump Suggestions</strong></td>
+        <td>Name, address, city of a CNG pump you suggest adding</td>
+        <td>To expand our pump database; reviewed manually</td>
+        <td><span class="badge">No</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>We do <strong>not</strong> collect your name, email address, phone number, payment information, contact list, photos, or any other personal data.</p>
+
+  <h2>3. Location Data</h2>
+  <p>The App requests access to your device's GPS location <strong>only while the App is open and in use</strong> (foreground access). We do not access your location in the background.</p>
+  <ul>
+    <li>Your location is used only to center the map and calculate distance to nearby CNG pumps.</li>
+    <li>Your location coordinates are <strong>not stored on our servers</strong>, not shared with third parties, and not linked to your device ID.</li>
+    <li>You may deny location permission — the App will still work; you can manually search for a city.</li>
+  </ul>
+
+  <h2>4. Anonymous Device ID</h2>
+  <p>To maintain data quality, the App generates a random identifier (UUID) the first time you use it. This ID is:</p>
+  <ul>
+    <li>Stored only on your device (using secure local storage)</li>
+    <li>Not linked to your name, phone, account, or any personal information</li>
+    <li>Used only to enforce a 2-hour cooldown on status reports per pump (so one device cannot repeatedly submit conflicting updates)</li>
+    <li>Deleted automatically if you uninstall the App and its data</li>
+  </ul>
+
+  <h2>5. Crowdsourced Reports</h2>
+  <p>When you submit a pump status update (CNG availability, pressure, queue), the following is stored in our database:</p>
+  <ul>
+    <li>The pump identifier (which station you reported about)</li>
+    <li>The report content (available / not available, pressure rating, queue length)</li>
+    <li>A timestamp</li>
+    <li>Your anonymous device ID (as described above)</li>
+  </ul>
+  <p>These records are anonymous. No personal identity is attached to any report. The consensus status displayed to users is computed from the last 2 hours of reports, weighted by contributor type.</p>
+
+  <h2>6. Pump Suggestions</h2>
+  <p>If you use the "Suggest a Pump" feature, you may voluntarily submit:</p>
+  <ul>
+    <li>Pump name, address, and city (required)</li>
+    <li>Operating hours and notes (optional)</li>
+    <li>GPS coordinates of the pump location (if you use the "Use My Location" button)</li>
+  </ul>
+  <p>This information is stored in our database and reviewed by our team before being added to the pump directory. GPS coordinates captured through pump suggestion refer to the <em>pump's location</em>, not your home or any personal address. Your device ID is attached to the suggestion for spam prevention only.</p>
+
+  <h2>7. Third-Party Services</h2>
+  <ul>
+    <li><strong>Google Maps (Android):</strong> The App uses Google Maps SDK to display the map. Google's own <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a> applies to map rendering. We do not share your location data with Google beyond what the map SDK requires for display.</li>
+    <li><strong>Supabase:</strong> Our backend database is hosted on Supabase (supabase.com). Anonymous pump data and device IDs are stored on Supabase servers. Supabase's <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Privacy Policy</a> applies.</li>
+  </ul>
+  <p>We do not use advertising SDKs, analytics trackers, crash reporters, or social login SDKs at this time.</p>
+
+  <h2>8. Data Retention</h2>
+  <ul>
+    <li><strong>Pump status reports:</strong> Reports older than 24 hours are considered stale for display purposes. We may retain historical data for service improvement.</li>
+    <li><strong>Device IDs:</strong> Retained in our database only as long as associated pump reports exist. No personal data is linked to these IDs.</li>
+    <li><strong>Pump suggestions:</strong> Retained until reviewed; accepted suggestions become permanent pump directory entries (without device ID).</li>
+  </ul>
+
+  <h2>9. Children's Privacy</h2>
+  <p>CNG Near Me is not directed at children under 13 years of age. We do not knowingly collect any information from children. If you believe a child has submitted information through our App, please contact us and we will delete it promptly.</p>
+
+  <h2>10. Your Rights</h2>
+  <p>Because we do not collect personally identifiable information, there is no personal data profile to access, correct, or delete. However, you may:</p>
+  <ul>
+    <li>Deny location permission at any time through your device settings</li>
+    <li>Clear the App's local data (which removes your anonymous device ID) through your device's app settings</li>
+    <li>Contact us to request deletion of any pump suggestion you submitted (if you can identify the submission)</li>
+  </ul>
+
+  <h2>11. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy as the App evolves. We will post the updated policy at this URL and update the "Last Updated" date above. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
+
+  <h2>12. Contact Us</h2>
+  <p>Questions, concerns, or requests regarding this Privacy Policy can be directed to:</p>
+
+  <div class="contact-card">
+    <p class="company">SetuSphere</p>
+    <p class="udyam">MSME · UDYAM-UP-21-0060784</p>
+    <div class="contact-grid">
+      <div class="contact-row">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">kv11081987m@gmail.com</span>
+      </div>
+      <div class="contact-row">
+        <span class="contact-label">Address</span>
+        <span class="contact-value">Deoria, Uttar Pradesh, India</span>
+      </div>
+      <div class="contact-row">
+        <span class="contact-label">App</span>
+        <span class="contact-value">CNG Near Me (CNGSetu) — Available on Google Play Store</span>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <span>© 2026 SetuSphere · CNG Near Me</span>
+    <span>Deoria, Uttar Pradesh, India</span>
+  </footer>
+
+</div>
+
+</body></html>
